@@ -2,7 +2,7 @@
 May 3rd 2020
 
 ## Project Title
-Explore US Bikeshare Data
+Explore US Bikeshare Data for Chicago, New York City and Washington
 
 ## Description
 This Python project imports US bike share data and answers interesting questions about it by computing descriptive statistics. It  takes in raw input which it uses to sort the data as well as create an  interactive experience in the terminal in the presentation of these statistics.
