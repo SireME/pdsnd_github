@@ -189,12 +189,13 @@ def raw_data(df):
      """Prompts the user if they want to see the raw data"""
      data =''
      counter=0
-     while data not in('yes','no'):
+     boolean_ans=('yes','no')
+     while data not in boolean_ans:
          data=input('Do you want to see the raw data? type yes or no :\n')
          data=data.lower()
          if data =='yes':
               print(df.head())
-         elif data not in('yes','no'):
+         elif data not in boolean_ans:
               print('Wrong Input please choose YES or NO')
 
      while data =='yes':
